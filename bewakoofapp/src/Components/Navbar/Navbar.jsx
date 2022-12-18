@@ -5,7 +5,7 @@ import { IoBagOutline } from "react-icons/io5";
 import { IoSearchOutline } from "react-icons/io5";
 
 import { FaUserAlt } from "react-icons/fa";
-import { AppContext } from "../Context/AppContext";
+import { AppContext } from "../Context/appContext.jsx";
 import { Circle, Text } from "@chakra-ui/react";
 
 
