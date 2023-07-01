@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react'
 import { createContext } from 'react'
 
@@ -10,18 +11,17 @@ const data = {
 
     SliderData : {
       men: [
-          "https://images.bewakoof.com/uploads/grid/app/winter-looks-common-1670589179.jpg",
-          "https://images.bewakoof.com/uploads/grid/app/banner-1x1-christmas-Final-common-winterwear-1671215724.jpg",
-          "https://images.bewakoof.com/uploads/grid/app/ezgif-com-gif-maker-1671199690.gif",
-          "https://images.bewakoof.com/uploads/grid/app/winter-jkt-1x1-common-01-1671201216.jpg",
+          "https://images.bewakoof.com/uploads/grid/app/1x1-oversized-men-1660651512.jpg",
+          "https://images.bewakoof.com/uploads/grid/app/dragon1x1-refresh--1--1661164540.gif",
+          "https://images.bewakoof.com/uploads/grid/app/clearance-banner-men-1661275920.jpg",
+          "https://images.bewakoof.com/uploads/grid/app/urban-collection-men--1660893379.jpg",
           "https://images.bewakoof.com/uploads/grid/app/just-arrived-polo-1661102739.jpg",
         ],
       women : [
-        "https://images.bewakoof.com/uploads/grid/app/winter-women-01-1670943723.jpg",
-        "https://images.bewakoof.com/nav_menu/banner-1x1-christmas-Final-women-01-1671200197.jpg",
-        "https://images.bewakoof.com/nav_menu/oversized-sweatshirt-hoodies-w-1671200320.jpg",
-        "https://images.bewakoof.com/uploads/grid/app/winter-jkt-1x1-common-01-1671201216.jpg",
-       
+        "https://images.bewakoof.com/uploads/grid/app/buy-2-get-1-women-1660891856.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/urban-collection-women-1660893379.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/clearance-banner-women-1661275921.jpg",
+        "https://images.bewakoof.com/uploads/grid/app/1x1-oversized-women-1660651512.jpg"
       ] ,
       acc:[
         "https://images.bewakoof.com/uploads/grid/app/best-seller-1x1--1658468285.gif",
@@ -55,11 +55,11 @@ const data = {
               
     
     longDiv : {
-      men : "https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-6-1669115141.jpg",
-      women :  "https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-6-1669217199.jpg",
+      men : "https://images.bewakoof.com/uploads/grid/app/desktop-tod-strip-men-1654149139.jpg",
+      women :  "https://images.bewakoof.com/uploads/grid/app/desktop-tod-strip-women-1654149139.jpg",
       acc :  "https://images.bewakoof.com/uploads/grid/app/desktop-tod-strip-women-1654149139.jpg",
-      men2 : "https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-Common-1669986431.jpg",
-      men3 : "https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1669022420.jpg"
+      men2 : "https://images.bewakoof.com/uploads/grid/app/desktop---strip-1440---x-150---tribe-1634552003.png",
+      men3 : "https://images.bewakoof.com/uploads/grid/app/design-survey-desktop-ticker-banner-1646808890.gif"
     },
 
     smallProduct: {
@@ -155,7 +155,7 @@ const AllProductsData = {
       id:1,
       Display_image : "https://images.bewakoof.com/t1080/snazzy-green-half-sleeve-t-shirt-for-men-s-436115-1655836690-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/snazzy-green-half-sleeve-t-shirt-for-men-s-436115-1655836695-2.jpg",
-      Title: "Blue T-shirt",
+      Title: "suFi's Blue T-shirt",
       price:699,
       strikeprice:1299,
       amount:1,
@@ -204,7 +204,7 @@ const AllProductsData = {
       Display_image : "https://images.bewakoof.com/t1080/snitch-men-s-white-abstract-printed-slim-fit-shirt-505598-1656179088-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/snitch-men-s-white-abstract-printed-slim-fit-shirt-505598-1656179098-3.jpg",
       price:499,
-      Title: "Full Sleeve T-shirt",
+      Title: "suFi Full Sleeve T-shirt",
       strikeprice:1299,
       amount:1,
       moreImage: [
@@ -299,7 +299,7 @@ const AllProductsData = {
       Display_image : "https://images.bewakoof.com/t1080/men-s-blue-t-shirt-1092-1659608118-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/men-s-blue-t-shirt-1092-1659608134-4.jpg",
       price:499,
-      Title: " Full Sleeve T-shirt",
+      Title: "suFi Full Sleeve T-shirt",
       strikeprice:1299,
       amount:1,
       moreImage: [
@@ -350,7 +350,7 @@ const AllProductsData = {
       id:13,
       Display_image : "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810540-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810556-4.jpg",
-      Title:"Black Friends Typography T-shirt",
+      Title:"Naaz's Black Friends Typography T-shirt",
       price:699,
       strikeprice:1299,
       amount:1,
@@ -446,7 +446,7 @@ const AllProductsData = {
       id:19,
       Display_image : "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161846-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161867-5.jpg",
-      Title: " Green Solid Flared  With Tussel Details",
+      Title: "Naaz's  Green Solid Flared Anarkali With Tussel Details",
       price:800,
       strikeprice:1200,
       amount:1,
@@ -462,7 +462,7 @@ const AllProductsData = {
       id:20,
       Display_image : "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937808-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937825-4.jpg",
-      Title: "Green Floral Printed Flared Anarkali ",
+      Title: "Naaz's Green Floral Printed Flared Anarkali ",
       price:786,
       strikeprice:999,
       amount:1,
@@ -478,7 +478,7 @@ const AllProductsData = {
       id:21,
       Display_image : "https://images.bewakoof.com/t1080/aks-black-gold-printed-tiered-anarkali-404969-1655938050-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/aks-black-gold-printed-tiered-anarkali-404969-1655938066-4.jpg",
-      Title: "Black Gold Printed Tiered Anarkali",
+      Title: "Naaz's Black Gold Printed Tiered Anarkali",
       price:1600,
       strikeprice:3999,
       amount:1,
@@ -550,7 +550,7 @@ const CartDataToMatch = [
     id:1,
     Display_image : "https://images.bewakoof.com/t1080/snazzy-green-half-sleeve-t-shirt-for-men-s-436115-1655836690-1.jpg",
     hover_Image: "https://images.bewakoof.com/t1080/snazzy-green-half-sleeve-t-shirt-for-men-s-436115-1655836695-2.jpg",
-    Title: " Blue T-shirt",
+    Title: "suFi's Blue T-shirt",
     price:699,
     strikeprice:1299,
     amount:1,
@@ -599,7 +599,7 @@ const CartDataToMatch = [
     Display_image : "https://images.bewakoof.com/t1080/snitch-men-s-white-abstract-printed-slim-fit-shirt-505598-1656179088-1.jpg",
     hover_Image: "https://images.bewakoof.com/t1080/snitch-men-s-white-abstract-printed-slim-fit-shirt-505598-1656179098-3.jpg",
     price:499,
-    Title: "Full Sleeve T-shirt",
+    Title: "suFi Full Sleeve T-shirt",
     strikeprice:1299,
     amount:1,
     moreImage: [
@@ -694,7 +694,7 @@ const CartDataToMatch = [
     Display_image : "https://images.bewakoof.com/t1080/men-s-blue-t-shirt-1092-1659608118-1.jpg",
     hover_Image: "https://images.bewakoof.com/t1080/men-s-blue-t-shirt-1092-1659608134-4.jpg",
     price:499,
-    Title: " Full Sleeve T-shirt",
+    Title: "suFi Full Sleeve T-shirt",
     strikeprice:1299,
     amount:1,
     moreImage: [
@@ -743,7 +743,7 @@ const CartDataToMatch = [
       id:13,
       Display_image : "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810540-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/women-s-black-friends-typography-boyfriend-t-shirt-234669-1655810556-4.jpg",
-      Title:"Black Friends Typography T-shirt",
+      Title:"Naaz's Black Friends Typography T-shirt",
       price:699,
       strikeprice:1299,
       amount:1,
@@ -839,7 +839,7 @@ const CartDataToMatch = [
       id:19,
       Display_image : "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161846-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/aks-green-solid-flared-anarkali-with-tussel-details-404759-1656161867-5.jpg",
-      Title: "  Green Solid Flared Anarkali With Tussel Details",
+      Title: "Naaz's  Green Solid Flared Anarkali With Tussel Details",
       price:800,
       strikeprice:1200,
       amount:1,
@@ -855,7 +855,7 @@ const CartDataToMatch = [
       id:20,
       Display_image : "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937808-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/aks-green-floral-printed-flared-anarkali-404758-1655937825-4.jpg",
-      Title: "Green Floral Printed Flared Anarkali ",
+      Title: "Naaz's Green Floral Printed Flared Anarkali ",
       price:786,
       strikeprice:999,
       amount:1,
@@ -871,7 +871,7 @@ const CartDataToMatch = [
       id:21,
       Display_image : "https://images.bewakoof.com/t1080/aks-black-gold-printed-tiered-anarkali-404969-1655938050-1.jpg",
       hover_Image: "https://images.bewakoof.com/t1080/aks-black-gold-printed-tiered-anarkali-404969-1655938066-4.jpg",
-      Title: "Black Gold Printed Tiered Anarkali",
+      Title: "Naaz's Black Gold Printed Tiered Anarkali",
       price:1600,
       strikeprice:3999,
       amount:1,
@@ -1046,4 +1046,4 @@ handlePrice();
   )
 }
 
-export default AppContextProvider;
+export default AppContextProvider

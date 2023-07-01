@@ -1,10 +1,13 @@
 
 import React, { useState } from 'react'
-import DiscountProduct from './sliderImges/DiscountProduct'
-
-import SliderImages from "./sliderImges/SliderImages"
-import StoopidCollection4D from './sliderImges/StoopidCollection4D'
-import TwoImage from './sliderImges/TwoImages'
+import { useContext } from 'react'
+import { AppContext } from '../Context/AppContext';
+import DiscountProduct from './smallComp.jsx/DiscountProduct'
+import Loading from './smallComp.jsx/Loding'
+import PopularCat from './smallComp.jsx/PopularCat'
+import SliderImages from './smallComp.jsx/SliderImages'
+import StoopidCollection4D from './smallComp.jsx/StoopidCollection4D'
+import TwoImage from './smallComp.jsx/TwoImages'
 
 
 
