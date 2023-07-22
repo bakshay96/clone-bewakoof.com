@@ -12,19 +12,24 @@ import TwoImage from './smallComp.jsx/TwoImages'
 
 
 
-function LandingPage (){
+
+
+function LandingPageWomen (){
 
   const {data} = useContext(AppContext)
 
-  // for products
- const path = "/men-clothing"
 
+    // for products
+ const path = "/women-clothing"
+
+
+ 
  // is Loading   // 
  const [isLoading, setIsLoading] = useState(true);
 
  setTimeout(() => {
- setIsLoading(false)
-  
+  setIsLoading(false)
+ 
  }, 1500);
   
 
@@ -32,8 +37,12 @@ function LandingPage (){
 
  if(isLoading){
 
-  return (  
+  return (
+  
+    
      <Loading />
+   
+
     ) 
 
  }
@@ -42,38 +51,36 @@ function LandingPage (){
 
     <div style={{marginTop: "150px"}} >
    
-   <SliderImages data={data.SliderData.men} path={path}  />
-   <TwoImage img1={data.longDiv.men} 
-   img2={data.smallProduct.men} 
-   img3={data.giftVoucher.forAll} path={path} 
-   />
-   <PopularCat data={data.PopularCat.men} path={path}  />
+   
+   <SliderImages data={data.SliderData.women}  path={path}   />
+   <TwoImage img1={data.longDiv.women} img2={data.smallProduct.women} img3={data.giftVoucher.forAll}  path={path}   />
+
+   <PopularCat data={data.PopularCat.women}   path={path}  />
+
+   <DiscountProduct data={data.DiscountProduct.women} path={path} />
+
+  {/* SLIDER PENDING */}
+
+
+
+   <SliderImages data={data.SliderData.women2}  path={path}  />
+
+
+   <StoopidCollection4D data={data.DiscountProduct.stoopidWomen}  path={path}  />
 
         {/* SLIDER PENDING */}
 
-      
-
-
-   <DiscountProduct data={data.DiscountProduct.men} path={path} />
- 
-   
-
-   <SliderImages data={data.SliderData.men2} path={path}  />
-
-   {/* SLIDER PENDING */}
-
   
-   <StoopidCollection4D data={data.DiscountProduct.stoopid} path={path}  />
+
+
    <TwoImage img1={data.longDiv.men2} 
    img3={data.longDiv.men3} 
    path={path} 
    />
     </div>
-  
-
 
 
   )
 }
 
-export default LandingPage
+export default LandingPageWomen
