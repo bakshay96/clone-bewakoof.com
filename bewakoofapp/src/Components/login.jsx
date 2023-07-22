@@ -3,7 +3,7 @@ import styles from "./login.module.css";
 import {  Spinner } from "@chakra-ui/react"
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AppContext } from "../Context/appContext.jsx";
+import { AppContext } from "../Context/AppContext";
 import Loading from "./smallComp.jsx/Loding";
 
 

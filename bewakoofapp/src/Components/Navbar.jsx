@@ -1,11 +1,12 @@
-// import React, { useContext, useEffect, useState } from "react"
+import React, { useContext, useEffect, useState } from "react";
+import styles from "./main.module.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import { VscHeart } from "react-icons/vsc";
 import { IoBagOutline } from "react-icons/io5";
 import { IoSearchOutline } from "react-icons/io5";
 
 import { FaUserAlt } from "react-icons/fa";
-import { AppContext } from "../Context/appContext.jsx";
+import { AppContext } from "../Context/AppContext";
 import { Circle, Text } from "@chakra-ui/react";
 
 
