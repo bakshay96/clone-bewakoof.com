@@ -81,26 +81,52 @@ Bewakoof.com Clone is a ReactJS e-commerce web application that allows you to bu
 
 
 <table>
-  <tr>
-    <td><img src="https://i.ibb.co/FDBxbh3/Capture1.png"  alt="home" /></td>
-    <td><img src="https://i.ibb.co/HPWYSFD/Capture2.png"  alt="coupons" /></td>
-  </tr>
-  <tr>
-   
-  </tr>
-  <tr>
-   
-   
-  </tr>
-  <tr>
+  <Td>
+    Home
+  </Td>
   
-  </tr>
-   <tr>
-  
-  </tr>
   <tr>
-   
+    <td><img src="https://res.cloudinary.com/ddjink5zz/image/upload/v1728918513/Screenshot_866_ehsgvr.png"  alt="home page" /></td>
   </tr>
+  
+  <td>
+    Login
+  </td>
+  <tr>
+  <td><img src="https://res.cloudinary.com/ddjink5zz/image/upload/v1728918620/Screenshot_867_rklbq8.png"  alt="auth img" /></td>
+  </tr>
+  
+  <td>
+    Product page
+  </td>
+  <tr>
+   <td><img src="https://res.cloudinary.com/ddjink5zz/image/upload/v1728917051/Screenshot_862_yi4hho.png"  alt="product page" /></td>
+  </tr>
+
+  <td>
+    Product Description Page
+  </td>
+  <tr>
+   <td><img src="https://res.cloudinary.com/ddjink5zz/image/upload/v1728917873/Screenshot_863_wwz508.png"  alt="product img" /></td>
+  </tr>
+
+   <td>
+   Bag info
+  </td>
+  <tr>
+   <td><img src="https://res.cloudinary.com/ddjink5zz/image/upload/v1728918045/Screenshot_864_q9ocsl.png"  alt="bag img" /></td>
+  </tr>
+
+  <td>
+   Cart Management Page
+  </td>
+  <tr>
+   <td><img src="https://res.cloudinary.com/ddjink5zz/image/upload/v1728918233/Screenshot_865_dkjfbn.png"  alt="cart img" /></td>
+  </tr>
+  
+  
+  
+  
 
 </table>
 
