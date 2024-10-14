@@ -42,8 +42,7 @@
 </p>
 
 
-Bewakoof.com Clone is a ReactJS e-commerce web application that allows you to buy shoes & clothes online with payment gateway integration. It has a variety of categories, visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any product from the website. This project is just for educational purposes.
-
+BewakoofStpre  is an e-commerce web application that allows you to buy shoes & clothes online. It has a variety of categories, visit the product listing page and you will see all the products, apply filters as per your need and in just a few clicks you can buy any product from the website. This project is just for educational purposes.
 
 
 
@@ -76,8 +75,6 @@ Bewakoof.com Clone is a ReactJS e-commerce web application that allows you to bu
 <br />
 
 ## Screen tour of Bewakoof-Clone 🙈 :
-
-
 
 
 <table>
@@ -139,7 +136,7 @@ Bewakoof.com Clone is a ReactJS e-commerce web application that allows you to bu
 This project was built using React, Chakra UI, HTML, CSS, JavaScript, and Rest API. It is an e-commerce web application and for running on your local environment you should follow these guidelines.
 
 
-# PROJECT VERCEL LINK
+# PROJECT netlify LINK
 https://bewakoofstore.netlify.app/
 
 # Getting Started with Create React App
